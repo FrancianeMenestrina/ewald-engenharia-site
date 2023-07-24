@@ -5,9 +5,11 @@ import Footer from "../components/Footer";
 
 const Index = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <h1 className="flex justify-center mt-20 text-8xl">Ewald Engenharia</h1>
+      <h1 className="flex justify-center mt-20 text-8xl flex-1">
+        Ewald Engenharia
+      </h1>
       <Footer />
     </div>
   );
