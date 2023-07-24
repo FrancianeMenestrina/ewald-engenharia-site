@@ -79,7 +79,7 @@ const Footer = () => {
             <div key={item.name} className="pb-6">
               <a
                 href={item.href}
-                className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                className="text-base leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
               </a>
