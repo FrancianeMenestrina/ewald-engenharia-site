@@ -1,10 +1,11 @@
 import React from "react";
+import logo from "../../images/01.jpg";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Empresa", href: "#" },
+  { name: "Serviços", href: "#" },
+  { name: "Ver esse link", href: "#" },
+  { name: "Contato", href: "#" },
 ];
 
 const Header = () => {
@@ -16,12 +17,7 @@ const Header = () => {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="h-22 w-auto" src={logo} alt="logo"></img>
           </a>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
@@ -29,7 +25,7 @@ const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base font-semibold leading-6 text-gray-900 hover:rounded-md hover:bg-amarelo px-3 py-2 hover:text-white hover:shadow-sm"
             >
               {item.name}
             </a>
@@ -38,7 +34,7 @@ const Header = () => {
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <a
             href="#"
-            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="rounded-md bg-amarelo px-3 py-2 text-base font-semibold text-white shadow-sm hover:amarelo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Sign up
           </a>
@@ -47,9 +43,7 @@ const Header = () => {
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-          >
-            <span className="sr-only">Open main menu</span>
-          </button>
+          ></button>
         </div>
       </nav>
     </header>
