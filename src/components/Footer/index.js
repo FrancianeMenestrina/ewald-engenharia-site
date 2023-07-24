@@ -14,8 +14,8 @@ const navigation = {
       icon: (props) => (
         <svg
           fill="#9CA3AF"
-          height="20px"
-          width="20px"
+          height="24px"
+          width="24px"
           version="1.1"
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"

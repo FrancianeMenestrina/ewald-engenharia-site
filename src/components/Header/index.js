@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/01.jpg";
+import phone from "../../images/phone.png";
 
 const navigation = [
   { name: "Empresa", href: "#" },
@@ -31,12 +32,14 @@ const Header = () => {
             </a>
           ))}
         </div>
-        <div className="flex flex-1 items-center justify-end gap-x-6">
+        <div className="flex items-center justify-end gap-x-6">
           <a
-            href="#"
-            className="rounded-md bg-amarelo px-3 py-2 text-base font-semibold text-white shadow-sm hover:amarelo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className=" flex rounded-md items-center bg-amarelo px-3 py-2 text-base font-semibold text-white shadow-sm hover:amarelo focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
+            target="_blank"
           >
-            Sign up
+            <img className="w-5 h-5" src={phone}></img>
+            <span className="ml-2">(47) 98417-4008</span>
           </a>
         </div>
         <div className="flex lg:hidden">
