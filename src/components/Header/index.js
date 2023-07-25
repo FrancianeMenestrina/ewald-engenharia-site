@@ -5,7 +5,7 @@ import phone from "../../images/phone.png";
 const navigation = [
   { name: "Empresa", href: "#" },
   { name: "Serviços", href: "#" },
-  { name: "Ver esse link", href: "#" },
+  { name: "Clientes", href: "#" },
   { name: "Contato", href: "#" },
 ];
 

@@ -2,69 +2,82 @@ import React from "react";
 
 const tiers = [
   {
-    name: "Capacitação de trabalhadores em atividades em altura - NR 35",
-    id: "01",
+    name: "Treinamento 1",
+    id: "tier-freelancer",
     href: "#",
 
-    description:
-      "Assessoria, Consultoria, Treinamento, Orientação, Supervisão.",
+    description: "The essentials to provide your best work for clients.",
   },
   {
-    name: "Capacitação para formação de Brigadistas.",
-    id: "02",
+    name: "Treinamento 2",
+    id: "tier-startup",
     href: "#",
 
-    description:
-      "Assessoria, Consultoria, Treinamento, Orientação, Supervisão.",
+    description: "A plan that scales with your rapidly growing business.",
   },
   {
-    name: "Capacitação para membros da CIPA - NR 05",
-    id: "03",
+    name: "Treinamento 3",
+    id: "tier-enterprise",
     href: "#",
 
-    description:
-      "Assessoria, Consultoria, Treinamento, Orientação, Supervisão.",
+    description: "Dedicated support and infrastructure for your company.",
   },
   {
-    name: "Plano de Implantação da Brigada de Incêndio",
-    id: "04",
+    name: "Treinamento 4",
+    id: "tier-freelancers",
     href: "#",
 
-    description:
-      "Análise, Avaliação, Detalhamento, Elaboração, Especificação, Estudo, Estudo de Viabilidade Técnica, Execução, Orientação.",
+    description: "The essentials to provide your best work for clients.",
   },
   {
-    name: "Capacitação de trabalhadores em atividades com inflamáveis e combustíveis - NR20.",
-    id: "05",
+    name: "Treinamento 5",
+    id: "tier-startups",
     href: "#",
 
-    description:
-      "Assessoria, Consultoria, Treinamento, Orientação, Supervisão.",
+    description: "A plan that scales with your rapidly growing business.",
   },
   {
-    name: "Condições de segurança do trabalho em operações de máquinas e equipamentos.",
-    id: "06",
+    name: "Treinamento 6",
+    id: "tier-enterprises",
     href: "#",
 
-    description:
-      "Análise, Auditoria, Avaliação, Treinamentos, Inspeção, Laudo, Parecer, Perícia, Vistoria.",
+    description: "Dedicated support and infrastructure for your company.",
+  },
+  {
+    name: "Treinamento 7",
+    id: "tier-enterprises",
+    href: "#",
+
+    description: "Dedicated support and infrastructure for your company.",
+  },
+  {
+    name: "Treinamento 8",
+    id: "tier-enterprises",
+    href: "#",
+
+    description: "Dedicated support and infrastructure for your company.",
+  },
+  {
+    name: "Treinamento 9",
+    id: "tier-enterprises",
+    href: "#",
+
+    description: "Dedicated support and infrastructure for your company.",
+  },
+  {
+    name: "Treinamento 10",
+    id: "tier-enterprises",
+    href: "#",
+
+    description: "Dedicated support and infrastructure for your company.",
   },
 ];
 
-const Servicos = () => {
+const ServicosTagMenor = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Conheça nossos serviços
-          </p>
-        </div>
-        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-          Choose an affordable plan that’s packed with the best features for.
-        </p>
-        <div className="mt-16 flex justify-center"></div>
-        <div className="isolate mx-auto  mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="isolate mx-auto  mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           {tiers.map((tier) => (
             <div
               key={tier.id}
@@ -106,4 +119,4 @@ const Servicos = () => {
   );
 };
 
-export default Servicos;
+export default ServicosTagMenor;

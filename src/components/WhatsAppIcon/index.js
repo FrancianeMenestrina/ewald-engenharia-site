@@ -10,7 +10,7 @@ const WhatsAppIcon = () => {
       <img
         src={whats}
         alt="whatsapp"
-        className="fixed bottom-6 right-6 w-28 h-28"
+        className="fixed bottom-6 right-6 w-24 h-24"
       ></img>
     </a>
   );
