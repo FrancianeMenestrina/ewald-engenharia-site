@@ -109,7 +109,7 @@ const ServicosTagMenor = () => {
                 aria-describedby={tier.id}
                 className=" text-white  hover:bg-gray-300 hover:text-black mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
               >
-                Fale conosco ->
+                Fale conosco <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           ))}

@@ -8,6 +8,7 @@ import Servicos from "../components/Servicos";
 import Clientes from "../components/Clientes";
 import Seo from "../components/Seo";
 import ServicosTagMenor from "../components/ServicosTagMenor";
+import PerfilGui from "../components/PerfilGui";
 
 const Index = () => {
   return (
@@ -18,8 +19,9 @@ const Index = () => {
       ></Seo>
       <Header />
       <Hero />
-      <WhatsAppIcon />
       <Clientes />
+      <WhatsAppIcon />
+      <PerfilGui />
       <Servicos />
       <ServicosTagMenor />
       <Footer />

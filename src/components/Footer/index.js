@@ -1,4 +1,5 @@
 import React from "react";
+import logofooter from "../../images/logo-footer.png";
 
 const navigation = {
   main: [
@@ -115,7 +116,7 @@ const navigation = {
 const Footer = () => {
   return (
     <footer className="bg-gray-50">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+      <div className="mx-auto max-w-7xl overflow-hidden py-10 sm:py-12 lg:px-2">
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
@@ -131,19 +132,24 @@ const Footer = () => {
             </div>
           ))}
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
+        <div className="flex justify-around items-center space-x-10 mb-2">
+          <div className="flex ">
+            <img className="h-50 w-80" src={logofooter}></img>
+          </div>
           {navigation.social.map((item) => (
             <a
               key={item.name}
               href={item.href}
               className="text-gray-400 hover:text-gray-500"
             >
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
+              <div className="flex justify-center">
+                <item.icon className="h-6 w-6 " aria-hidden="true" />
+              </div>
             </a>
           ))}
         </div>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
+        <div className="border-t border-gray-300"></div>
+        <p className="mt-4 text-center text-xs leading-5 text-gray-500">
           &copy; 2023 Ewald Engenharia - Todos os direitos reservados.
         </p>
       </div>
