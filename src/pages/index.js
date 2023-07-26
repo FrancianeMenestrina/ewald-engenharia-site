@@ -17,10 +17,10 @@ const Index = () => {
         title="Ewald Engenharia"
         description="Ewald Engenharia - Segurança do Trabalho e Gestão Fabril"
       ></Seo>
+      <WhatsAppIcon />
       <Header />
       <Hero />
       <Clientes />
-      <WhatsAppIcon />
       <PerfilGui />
       <Servicos />
       <ServicosTagMenor />
