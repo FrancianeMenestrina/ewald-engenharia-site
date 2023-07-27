@@ -49,7 +49,7 @@ const Faq = () => {
               target="_blank"
               className="font-semibold text-xl text-gray-500  hover:text-black mt-6 block rounded-md py-2 px-3 leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
             >
-              Tem mais alguma pergunta? Estamos aqui para ajudar{" "}
+              Tem mais alguma pergunta? Estamos aqui para te ajudar{" "}
               <span aria-hidden="true">&rarr;</span>
             </a>
           </h2>
