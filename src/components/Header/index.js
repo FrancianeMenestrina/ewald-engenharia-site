@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-end gap-x-6">
           <a
-            className=" flex rounded-md items-center bg-amarelo px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-gray-300 hover:text-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className=" flex rounded-md items-center bg-amarelo px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-mostarda hover:text-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
             target="_blank"
           >

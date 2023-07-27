@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         amarelo: "#D1AE6C",
+        mostarda: "#CF9012",
       },
     },
   },

@@ -9,6 +9,7 @@ import Clientes from "../components/Clientes";
 import Seo from "../components/Seo";
 import ServicosTagMenor from "../components/ServicosTagMenor";
 import PerfilGui from "../components/PerfilGui";
+import Faq from "../components/Faq";
 
 const Index = () => {
   return (
@@ -21,9 +22,9 @@ const Index = () => {
       <Header />
       <Hero />
       <Clientes />
-      <PerfilGui />
       <Servicos />
-      <ServicosTagMenor />
+      <PerfilGui />
+      <Faq />
       <Footer />
     </div>
   );
