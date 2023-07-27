@@ -136,10 +136,21 @@ const Footer = () => {
           <div className="flex ">
             <img className="h-50 w-80" src={logofooter}></img>
           </div>
+          <div>
+            <p className="text-gray-500">Timbó - Santa Catarina</p>
+            <a
+              href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
+              target="_blank"
+              className="text-gray-500 font-semi-bold hover:text-gray-900 "
+            >
+              (47) 98417-4008
+            </a>
+          </div>
           {navigation.social.map((item) => (
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
               className="text-gray-400 hover:text-gray-500"
             >
               <div className="flex justify-center">

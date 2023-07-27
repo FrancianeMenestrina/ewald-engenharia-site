@@ -6,7 +6,7 @@ import declaus from "../../images/declaus.png";
 
 const Clientes = () => {
   return (
-    <div className="flex flex-col items-center text-center py-12">
+    <div className="flex mt-10 flex-col items-center text-center py-12">
       <h1 className="text-1xl font-bold tracking-tight text-black sm:text-2xl">
         Conheça alguns de nossos clientes
       </h1>

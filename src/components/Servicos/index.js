@@ -67,7 +67,7 @@ const Servicos = () => {
               <p className="mt-4 text-2xl font-bold text-center leading-6 text-black">
                 {tier.name}
               </p>
-              <p className="mt-4 text-xl text-center leading-6 text-gray-600">
+              <p className="mt-4 text-xl text-center leading-6 text-gray-200">
                 {tier.description}
               </p>
               <p className="mt-6 flex items-baseline gap-x-1">

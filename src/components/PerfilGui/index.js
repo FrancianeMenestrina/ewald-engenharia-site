@@ -21,7 +21,7 @@ const benefits = [
 
 const PerfilGui = () => {
   return (
-    <div className="bg-white pb-16  pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
+    <div className="bg-white -mt-20 pb-16  pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
       <p className="text-center text-3xl  text-black font-bold  sm:text-2xl">
         SAIBA MAIS SOBRE NOSSO INSTRUTOR
       </p>

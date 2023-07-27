@@ -31,9 +31,9 @@ const faqs = [
       "Pode sim! Entre em contato conosco para podermos agendar! Realizamos os treinamentos durante a semana e aos finais de semana também, conforme solicitação do cliente e nossa disponibilidade.",
   },
   {
-    question: "Recebo certificado nos treinamentos?",
+    question: "Eu recebo certificado dos treinamentos?",
     answer:
-      "Recebe sim! Todos os nossos cursos e treinamentos possuem certificado que são entregues na conclusão.",
+      "Recebe sim! Todos os nossos cursos e treinamentos possuem certificados que são entregues na conclusão.",
   },
 ];
 

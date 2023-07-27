@@ -42,7 +42,7 @@ const Brigadista = () => {
         <div className="bg-gray-100">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-              <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+              <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900">
                 Serviços de Brigada Particular
               </h2>
               <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
@@ -74,6 +74,13 @@ const Brigadista = () => {
                           <p className="text-base leading-7 text-gray-600">
                             {servico.answer}
                           </p>
+                          <a
+                            href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
+                            target="_blank"
+                            className="rounded-md w-1/5 text-center bg-amarelo px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-mostarda hover:text-black mt-6 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                          >
+                            Fale conosco <span aria-hidden="true">&rarr;</span>
+                          </a>
                         </Disclosure.Panel>
                       </>
                     )}
