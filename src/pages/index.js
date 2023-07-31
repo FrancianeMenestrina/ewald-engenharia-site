@@ -7,7 +7,6 @@ import Hero from "../components/Hero";
 import Servicos from "../components/Servicos";
 import Clientes from "../components/Clientes";
 import Seo from "../components/Seo";
-import ServicosTagMenor from "../components/ServicosTagMenor";
 import PerfilGui from "../components/PerfilGui";
 import Faq from "../components/Faq";
 

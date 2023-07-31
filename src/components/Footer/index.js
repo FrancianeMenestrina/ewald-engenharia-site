@@ -1,12 +1,13 @@
 import React from "react";
 import logofooter from "../../images/logo-footer.png";
+import { Element } from "react-scroll";
 
 const navigation = {
   main: [
-    { name: "Empresa", href: "#" },
-    { name: "Serviços", href: "#" },
-    { name: "Clientes", href: "#" },
-    { name: "Contato", href: "#" },
+    { name: "Empresa", href: "empresa" },
+    { name: "Serviços", href: "servicos" },
+    { name: "Clientes", href: "clientes" },
+    { name: "Contato", href: "contato" },
   ],
   social: [
     {
@@ -116,7 +117,11 @@ const navigation = {
 const Footer = () => {
   return (
     <footer className="bg-white">
-      <div className="mx-auto max-w-7xl overflow-hidden py-10 sm:py-12 lg:px-2">
+      <Element name="contato"> </Element>
+      <div
+        id="contato"
+        className="mx-auto max-w-7xl overflow-hidden py-10 sm:py-12 lg:px-2"
+      >
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
@@ -124,7 +129,7 @@ const Footer = () => {
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               <a
-                href={item.href}
+                href={`#${item.href}`}
                 className="text-base leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
@@ -134,14 +139,16 @@ const Footer = () => {
         </nav>
         <div className="flex justify-around items-center space-x-10 mb-2">
           <div className="flex ">
-            <img className="h-50 w-80" src={logofooter}></img>
+            <a href="#header">
+              <img className="h-50 w-80" src={logofooter}></img>
+            </a>
           </div>
           <div>
             <p className="text-gray-500">Timbó - Santa Catarina</p>
             <a
               href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
               target="_blank"
-              className="text-gray-500 font-semi-bold hover:text-gray-900 "
+              className="text-gray-500 font-semi-bold hover:text-gray-900"
             >
               (47) 98417-4008
             </a>

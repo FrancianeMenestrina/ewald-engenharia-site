@@ -47,7 +47,7 @@ const Faq = () => {
             <a
               href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
               target="_blank"
-              className="font-semibold text-xl text-gray-500  hover:text-black mt-6 block rounded-md py-2 px-3 leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
+              className=" -mx-3 font-semibold text-xl text-gray-500  hover:text-black mt-6 block rounded-md py-2 px-3 leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
             >
               Tem mais alguma pergunta? Estamos aqui para te ajudar{" "}
               <span aria-hidden="true">&rarr;</span>
