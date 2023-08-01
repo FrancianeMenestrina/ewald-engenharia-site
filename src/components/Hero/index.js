@@ -1,5 +1,5 @@
 import React from "react";
-import treino2 from "../../images/02.jpeg";
+import treino2 from "../../images/02t.jpg";
 import treino3 from "../../images/03.jpeg";
 import treino5 from "../../images/05.jpeg";
 import treino002 from "../../images/002.jpg";
@@ -28,7 +28,7 @@ const Hero = () => {
               <a
                 href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
                 target="_blank"
-                className="rounded-md bg-amarelo px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-mostarda hover:text-black mt-6 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-amarelo px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-mostarda hover:text-black mt-6 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               >
                 Fale conosco <span aria-hidden="true">&rarr;</span>
               </a>

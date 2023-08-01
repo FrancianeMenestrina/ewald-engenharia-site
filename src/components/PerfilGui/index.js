@@ -52,7 +52,7 @@ const PerfilGui = () => {
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                 <ul
                   role="list"
-                  className=" grid grid-cols-1 gap-x-8  text-base  text-black sm:grid-cols-2"
+                  className=" grid grid-cols-1 gap-x-8  text-base  text-black sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:mt-10"
                 >
                   {benefits.map((benefit) => (
                     <li key={benefit} className="flex gap-x-3">
