@@ -123,32 +123,34 @@ const Footer = () => {
         className="mx-auto max-w-7xl overflow-hidden py-10 sm:py-12 lg:px-2"
       >
         <nav
-          className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="-mb-16 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               <a
                 href={`#${item.href}`}
-                className="text-base leading-6 text-gray-600 hover:text-gray-900"
+                className="text-base leading-6 text-gray-600 hover:text-gray-900 flex justify-center"
               >
                 {item.name}
               </a>
             </div>
           ))}
         </nav>
-        <div className="flex justify-around items-center space-x-10 mb-2">
-          <div className="flex ">
+        <div className=" mt-10 flex md:justify-around justify-center sm:items-center space-x-10 p-6 sm:p-1">
+          <div>
             <a href="#header">
-              <img className="h-50 w-80" src={logofooter}></img>
+              <img className="hidden md:flex h-30 w-60" src={logofooter}></img>
             </a>
           </div>
-          <div>
-            <p className="text-gray-500">Timbó - Santa Catarina</p>
+          <div className="hidden sm:flex sm:flex-col ">
+            <p className="text-gray-500 text-sm mt-10 text-center sm:text-base">
+              Timbó - Santa Catarina
+            </p>
             <a
               href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
               target="_blank"
-              className="text-gray-500 font-semi-bold hover:text-gray-900"
+              className="text-gray-500 font-semi-bold text-center text-sm sm:text-base hover:text-gray-900"
             >
               (47) 98417-4008
             </a>
@@ -167,7 +169,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="border-t border-gray-300"></div>
-        <p className="mt-4 text-center text-xs leading-5 text-gray-500">
+        <p className="mt-6 text-center text-base leading-5 text-gray-500">
           &copy; 2023 Ewald Engenharia - Todos os direitos reservados.
         </p>
       </div>

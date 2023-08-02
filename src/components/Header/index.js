@@ -24,14 +24,14 @@ const Header = () => {
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <img className="h-22 sm:h-20 w-auto" src={logo} alt="logo"></img>
+            <img className="md:h-36 h-20 w-auto" src={logo} alt="logo"></img>
           </a>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <span key={item.name}>
               <ScrollLink
-                className=" cursor-pointer text-base font-semibold leading-6 text-gray-900 hover:rounded-md hover:bg-amarelo px-3 py-2 hover:text-white hover:shadow-sm"
+                className="cursor-pointer text-base font-semibold leading-6 text-gray-900 hover:rounded-md hover:bg-amarelo px-3 py-2 hover:text-white hover:shadow-sm"
                 to={item.href}
                 smooth={true}
                 duration={2000}
@@ -43,7 +43,7 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-end gap-x-6">
           <a
-            className="sm:hidden lg:flex rounded-md lg:items-center bg-amarelo lg:px-3 lg:py-2 lg:text-base font-semibold text-white shadow-sm hover:bg-mostarda hover:text-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="hidden sm:flex rounded-md sm:items-center bg-amarelo sm:px-3 sm:py-2 sm:text-base font-semibold text-white shadow-sm hover:bg-mostarda hover:text-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
             target="_blank"
           >

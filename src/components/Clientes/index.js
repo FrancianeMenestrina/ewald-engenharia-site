@@ -12,13 +12,13 @@ const Clientes = () => {
         id="clientes"
         className="flex mt-10 flex-col items-center text-center py-12"
       >
-        <h1 className="text-1xl font-bold tracking-tight text-black sm:text-2xl">
+        <h1 className="text-3xl font-bold italic tracking-tight text-gray-900 sm:text-4xl">
           Conheça alguns de nossos clientes
         </h1>
         <br></br>
         <div className=" flex items-center rounded-md w-4/5 bg-amarelo shadow-2xl py-8">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-2 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            <div className="mx-auto grid max-w-lg md:grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl grid-cols-2 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
               <a
                 href="https://www.instagram.com/fc_servicos7/?igshid=MzRlODBiNWFlZA%3D%3D"
                 target="_blank"

@@ -27,11 +27,11 @@ const PerfilGui = () => {
         id="empresa"
         className="bg-white -mt-20 pb-16  pt-24 sm:pb-24 sm:pt-32 xl:pb-32"
       >
-        <p className="text-center text-3xl  text-black font-bold  sm:text-2xl">
+        <p className="text-center text-2xl  text-black font-bold  sm:text-3xl">
           SAIBA MAIS SOBRE NOSSO INSTRUTOR
         </p>
         <div className="flex flex-col justify-center items-center">
-          <p className="p-4 ml-16 text-center text-2xl leading-8 text-gray-700">
+          <p className="p-4 sm:ml-16 italic text-center text-2xl leading-8 text-gray-700">
             Guilherme Tiago Ewald - CREA-SC 174740-2
           </p>
         </div>
@@ -41,7 +41,7 @@ const PerfilGui = () => {
             <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
               <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                 <img
-                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                  className="xl:absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
                   src={perfil}
                   alt=""
                 />
@@ -55,7 +55,7 @@ const PerfilGui = () => {
                   className=" grid grid-cols-1 gap-x-8  text-base  text-black sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:mt-10"
                 >
                   {benefits.map((benefit) => (
-                    <li key={benefit} className="flex gap-x-3">
+                    <li key={benefit} className="flex gap-x-3 text-md">
                       <CheckCircleIcon
                         className="h-7 w-5 flex-none"
                         aria-hidden="true"
@@ -72,7 +72,7 @@ const PerfilGui = () => {
           <a
             href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
             target="_blank"
-            className="rounded-md w-1/5 text-center bg-amarelo px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-mostarda hover:text-black mt-6 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="rounded-md md:w-1/5 text-center bg-amarelo px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm  hover:bg-mostarda hover:text-black mt-6 block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
           >
             Fale conosco <span aria-hidden="true">&rarr;</span>
           </a>

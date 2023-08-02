@@ -14,10 +14,10 @@ const Hero = () => {
               Consultoria e Treinamentos em Segurança do Trabalho e Gestão
               Fabril
             </h2>
-            <p className="mt-6 text-2xl leading-8 text-gray-600">
+            <p className="mt-6 text-2xl leading-8 text-gray-600  sm:text-center sm:mx-10">
               Engenheiro Guilherme Tiago Ewald
             </p>
-            <p className=" text-2xl leading-8 text-gray-600">
+            <p className=" text-2xl leading-8 text-gray-600 sm:text-center">
               CREA-SC 174740-2
             </p>
             <p className="mt-6 text-center text-xl leading-7 text-gray-600">
