@@ -8,23 +8,23 @@ import Seo from "..//components/Seo";
 
 const servicos = [
   {
-    question: "Servico 1",
-    answer:
+    title: "Servico 1",
+    description:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad, I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad",
   },
   {
-    question: "Servico 2",
-    answer:
+    title: "Servico 2",
+    description:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad, I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad",
   },
   {
-    question: "Servico 3",
-    answer:
+    title: "Servico 3",
+    description:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad, I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad",
   },
   {
-    question: "Servico 4",
-    answer:
+    title: "Servico 4",
+    description:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad, I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur ad",
   },
 ];
@@ -47,13 +47,13 @@ const Brigadista = () => {
               </h2>
               <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
                 {servicos.map((servico) => (
-                  <Disclosure as="div" key={servico.question} className="pt-6">
+                  <Disclosure as="div" key={servico.title} className="pt-6">
                     {({ open }) => (
                       <>
                         <dt>
                           <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
                             <span className="text-base font-semibold leading-7">
-                              {servico.question}
+                              {servico.title}
                             </span>
                             <span className="ml-6 flex h-7 items-center">
                               {open ? (
@@ -72,7 +72,7 @@ const Brigadista = () => {
                         </dt>
                         <Disclosure.Panel as="dd" className="mt-2 pr-12">
                           <p className="text-base leading-7 text-gray-600">
-                            {servico.answer}
+                            {servico.description}
                           </p>
                           <a
                             href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
