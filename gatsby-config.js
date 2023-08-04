@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = {
   plugins: [
     "gatsby-plugin-postcss",
@@ -9,8 +11,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: "282whmdgkryj",
-        accessToken: "53K79j9fCBI65Eca4oFktNpW4wiTJgLuS310wI2ee7A",
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
   ],
