@@ -35,13 +35,12 @@ const tiers = [
       "Assessoria, Consultoria, Treinamento, Orientação e Supervisão.",
   },
   {
-    name: "Brigadista Particular",
+    name: "Serviços de Brigadista Particular",
     id: "04",
     href: "#",
     type: "brigadista",
 
-    description:
-      "Análise, Avaliação, Detalhamento, Elaboração, Especificação, Estudo, Estudo de Viabilidade Técnica, Execução, Orientação.",
+    description: "Análise, Execução e Orientação.",
   },
 ];
 

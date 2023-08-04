@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import WhatsAppIcon from "../components/WhatsAppIcon";
 import { Disclosure } from "@headlessui/react";
 import { ChevronRightIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
-import Seo from "..//components/Seo";
+import Seo from "../components/Seo";
 
 const servicos = [
   {

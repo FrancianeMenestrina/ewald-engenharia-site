@@ -19,7 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const serviceTemplate = path.resolve("src/templates/service.js");
 
   categoryServices.data.categoryServices.edges.forEach((categoryService) => {
-    console.log("categoryService", categoryService);
+    // console.log("categoryService", categoryService);
     createPage({
       path: categoryService.node.slug,
       component: serviceTemplate,

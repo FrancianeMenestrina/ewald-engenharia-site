@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import WhatsAppIcon from "../components/WhatsAppIcon";
 import { Disclosure } from "@headlessui/react";
 import { ChevronRightIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
-import Seo from "..//components/Seo";
+import Seo from "../components/Seo";
 
 const servicos = [
   {
@@ -29,7 +29,7 @@ const servicos = [
   },
 ];
 
-const Treinamentos = () => {
+const Engenharia = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Seo
@@ -43,7 +43,7 @@ const Treinamentos = () => {
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
               <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900">
-                Treinamentos
+                Serviços de Engenharia
               </h2>
               <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
                 {servicos.map((servico) => (
@@ -96,4 +96,4 @@ const Treinamentos = () => {
   );
 };
 
-export default Treinamentos;
+export default Engenharia;
