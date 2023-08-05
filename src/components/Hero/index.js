@@ -22,7 +22,7 @@ const Hero = () => {
             </p>
             <p className="mt-6 text-center text-xl leading-7 text-gray-600">
               Encontre aqui os treinamentos necessários para a sua empresa!
-              Nossa equipe é qualificada e está pronta para lhe antender!
+              Nossa equipe é qualificada e está pronta para lhe atender!
             </p>
             <div className="mt-10 flex">
               <a
