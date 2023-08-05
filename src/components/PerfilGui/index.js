@@ -43,7 +43,7 @@ const PerfilGui = () => {
                 <img
                   className="xl:absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
                   src={perfil}
-                  alt=""
+                  alt="perfil"
                 />
               </div>
             </div>

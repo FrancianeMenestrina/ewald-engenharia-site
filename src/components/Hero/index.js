@@ -34,33 +34,33 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-            <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+          <div className="flex lg:flex-wrap flex-col lg:items-start items-center lg:justify-end justify-center gap-6 md:gap-8 lg:contents">
+            <div className="sm:w-0 flex w-96 flex-auto lg:ml-auto justify-center lg:w-auto lg:flex-none lg:self-end">
               <img
                 src={treino2}
-                alt=""
-                className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                alt="treino2"
+                className="aspect-[7/5] sm:w-[37rem] w-[22rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
               />
             </div>
             <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-              <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+              <div className="order-first hidden sm:flex w-64 sm:flex-none sm:justify-end self-end lg:w-auto">
                 <img
                   src={treino5}
-                  alt=""
-                  className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                  alt="treino5"
+                  className="aspect-[4/3] sm:w-[20rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
-              <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+              <div className="flex w-96 flex-auto md:justify-end justify-center lg:w-auto lg:flex-none">
                 <img
                   src={treino3}
-                  alt=""
-                  className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                  alt="treino3"
+                  className="aspect-[7/5] md:w-[32rem] w-[22rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
-              <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+              <div className=" hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                 <img
                   src={treino002}
-                  className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  className="aspect-[4/3] sm:w-[20rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
             </div>
