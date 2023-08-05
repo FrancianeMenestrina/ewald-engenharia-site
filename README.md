@@ -1,4 +1,4 @@
-# ewald-engenharia-site
+# Ewald Engenharia - Site
 
 This site was developed for a training company in occupational safety.
 I developed using React/Gatsby, Contentful and Tailwind.
