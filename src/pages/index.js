@@ -20,7 +20,7 @@ const Index = () => {
       <WhatsAppIcon />
       <Header />
       <Hero />
-      <Clientes />
+      {/* <Clientes /> */}
       <Servicos />
       <PerfilGui />
       <Faq />

@@ -6,7 +6,7 @@ const navigation = {
   main: [
     { name: "Empresa", href: "empresa" },
     { name: "Serviços", href: "servicos" },
-    { name: "Clientes", href: "clientes" },
+    // { name: "Clientes", href: "clientes" },
     { name: "Contato", href: "contato" },
   ],
   social: [

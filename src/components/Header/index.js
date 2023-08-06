@@ -10,7 +10,7 @@ import { Bars3Icon, XCircleIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Empresa", href: "empresa" },
   { name: "Serviços", href: "servicos" },
-  { name: "Clientes", href: "clientes" },
+  // { name: "Clientes", href: "clientes" },
   { name: "Contato", href: "contato" },
 ];
 
