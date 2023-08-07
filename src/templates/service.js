@@ -25,7 +25,11 @@ const Service = ({ data, ...props }) => {
               </h2>
               <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
                 {data.contentfulServiceCategory.services.map((service) => (
-                  <Disclosure as="div" key={service.title} className="pt-6">
+                  <Disclosure
+                    as="div"
+                    key={service.title}
+                    className="pt-6 text-justify"
+                  >
                     {({ open }) => (
                       <>
                         <dt>
@@ -48,10 +52,14 @@ const Service = ({ data, ...props }) => {
                             </span>
                           </Disclosure.Button>
                         </dt>
-                        <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                        <Disclosure.Panel
+                          as="dd"
+                          className="mt-2 pr-12  items-center"
+                        >
                           <p className="text-base leading-7 text-gray-600">
                             {service.description.internal.content}
                           </p>
+
                           <a
                             href="https://wa.me/5547984174008?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Ewald%20Engenharia!"
                             target="_blank"

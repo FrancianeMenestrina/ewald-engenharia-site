@@ -48,7 +48,7 @@ const Header = () => {
             target="_blank"
           >
             <img className="w-5 h-5" src={phone}></img>
-            <span className="ml-2">(47) 98417-4008</span>
+            <span className="ml-2 font-bold">(47) 98417-4008</span>
           </a>
         </div>
         <div className="flex lg:hidden">

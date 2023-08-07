@@ -12,7 +12,7 @@ import Faq from "../components/Faq";
 
 const Index = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen font-roboto">
       <Seo
         title="Ewald Engenharia"
         description="Ewald Engenharia - Segurança do Trabalho e Gestão Fabril"

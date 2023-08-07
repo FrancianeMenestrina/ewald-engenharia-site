@@ -123,14 +123,16 @@ const Footer = () => {
         className="mx-auto max-w-7xl overflow-hidden py-10 sm:py-12 lg:px-2"
       >
         <nav
-          className="-mb-16 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="-mb-16 columns-2 flex justify-center space-x-12"
+          // Se precisar colocar os clientes, é só colocar esta classe aqui e na tag nav colocar flex e justify-center
+          // className="-mb-16 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               <a
                 href={`#${item.href}`}
-                className="text-base leading-6 text-gray-600 hover:text-gray-900 flex justify-center"
+                className="text-base leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
               </a>

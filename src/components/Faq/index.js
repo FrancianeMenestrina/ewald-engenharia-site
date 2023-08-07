@@ -56,7 +56,11 @@ const Faq = () => {
 
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="pt-6">
+              <Disclosure
+                as="div"
+                key={faq.question}
+                className="pt-6 text-justify"
+              >
                 {({ open }) => (
                   <>
                     <dt>

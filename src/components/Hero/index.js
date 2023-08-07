@@ -10,14 +10,14 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
               Consultoria e Treinamentos em Segurança do Trabalho e Gestão
               Fabril
             </h2>
-            <p className="mt-6 text-2xl leading-8 text-gray-600  sm:text-center sm:mx-10">
+            <p className="mt-6 text-2xl text-center leading-8 text-gray-600  sm:text-center sm:mx-10">
               Engenheiro Guilherme Tiago Ewald
             </p>
-            <p className=" text-2xl leading-8 text-gray-600 sm:text-center">
+            <p className=" text-2xl text-center leading-8 text-gray-600 sm:text-center">
               CREA-SC 174740-2
             </p>
             <p className="mt-6 text-center text-xl leading-7 text-gray-600">
