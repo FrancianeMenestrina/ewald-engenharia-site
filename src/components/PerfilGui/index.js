@@ -8,15 +8,17 @@ const benefits = [
   "Curso de anatomia no salvamento veicular",
   "Engenheiro de Segurança do Trabalho",
   "Curso em saúde e segurança no ambiente de trabalho",
-  "Especialização em Gestão da Indústria 4.0",
+  "Professor no SENAC Timbó nas áreas de Gestão, Negócios e Saúde e Segurança do trabalho",
   "Curso de ventilação operacional em incêndio",
-  "Instrutor de Brigada credenciado pelo CBMSC",
+  "Especialização em Gestão da Indústria 4.0",
   "Curso de soluções móveis HazMat para incidentes multirisco",
-  "Brigadista credenciado pelo CBMSC",
+  "Bombeiro Voluntário na cidade de Pomerode BVP-18",
 
   "Curso oficial de segurança em incidentes (OSI)",
-  "Bombeiro Voluntário na cidade de Pomerode BVP-18",
+  "Brigadista credenciado pelo CBMSC",
   "Curso de resgate veicular básico – nível I e II",
+  "Instrutor de Brigada credenciado pelo CBMSC",
+
   "Condutor de veículo de emergência com especialização em operação de bomba de combate à incêndio em viaturas de bombeiros",
 ];
 
