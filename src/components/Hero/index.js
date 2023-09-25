@@ -21,8 +21,10 @@ const Hero = () => {
               CREA-SC 174740-2
             </p>
             <p className="mt-6 text-center text-xl leading-7 text-gray-600">
-              Encontre aqui os treinamentos necessários para a sua empresa!
-              Nossa equipe é qualificada e está pronta para lhe atender!
+              A Ewald Engenharia auxilia empresas nas áreas de treinamento em
+              segurança do trabalho e engenharia preventiva para melhorar a
+              segurança de seus funcionários, atender conformidades regulatórias
+              e auxiliar no seu sucesso no mercado!
             </p>
             <div className="mt-10 flex">
               <a
