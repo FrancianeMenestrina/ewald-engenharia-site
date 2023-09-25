@@ -20,7 +20,7 @@ const Hero = () => {
             <p className=" text-2xl text-center leading-8 text-gray-600 sm:text-center">
               CREA-SC 174740-2
             </p>
-            <p className="mt-6 text-center text-xl leading-7 text-gray-600">
+            <p className="mt-6 text-center text-2xl leading-7 text-gray-600">
               A Ewald Engenharia auxilia empresas nas áreas de treinamento em
               segurança do trabalho e engenharia preventiva para melhorar a
               segurança de seus funcionários, atender conformidades regulatórias
