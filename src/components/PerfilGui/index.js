@@ -8,7 +8,7 @@ const benefits = [
   "Curso de anatomia no salvamento veicular",
   "Engenheiro de Segurança do Trabalho",
   "Curso em saúde e segurança no ambiente de trabalho",
-  "Professor no SENAC Timbó nas áreas de Gestão, Negócios e Saúde e Segurança do trabalho",
+  "Professor no SENAI e SENAC Timbó nas áreas de Gestão, Negócios e Saúde e Segurança do trabalho",
   "Curso de ventilação operacional em incêndio",
   "Especialização em Gestão da Indústria 4.0",
   "Curso de soluções móveis HazMat para incidentes multirisco",
